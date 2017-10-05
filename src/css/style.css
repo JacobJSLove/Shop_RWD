@@ -469,7 +469,7 @@ footer form a {
   nav .first img {height:auto;max-width: 30%;}
   nav .first {-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:1em;margin-top: 0.5em;}
   body{font-size: 10px;}
-  .nav-search{width: 100px;height: 23px;}
+  .nav-search{width: 80px;height: 23px;}
   .navbar {font-size:inherit;}
   .gallery li {margin: 0 5% 0 5%;}
   .gallery-last ul {text-align:center;}
