@@ -559,7 +559,7 @@ footer form a {
      overflow-y: hidden;
   }
   header {
-    background-size: contain;
+    background-size: 100% 100%;
     background-color: #e1dfd5;
   }
   .orange {
