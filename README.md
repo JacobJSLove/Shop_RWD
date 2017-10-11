@@ -1,3 +1,3 @@
-## Welcome to GitHub Pages
+##GitHub Pages
 
 https://jacobjslove.github.io/Shop_RWD/
