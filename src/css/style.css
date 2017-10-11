@@ -494,6 +494,15 @@ footer form a {
   .header_baner figcaption h2 {margin-top:5%;margin-bottom: 1%;}
   .header_baner .grey {margin-bottom:5%;}
   .copyright {margin:1% 0 1% 1%;}
+    @-moz-document url-prefix() {  
+  .orange {
+    margin-top: 1.5em;
+  }
+  body {font-size: 10px;}
+  .header_baner figcaption p{
+    margin: 1em 0 1.5em 0;
+  }
+  }
 }
 @media (min-width: 641px) and (max-width:899px) { 
   .gallery aside {height:50px;}
@@ -523,15 +532,7 @@ footer form a {
   .header_baner figcaption h2 {margin-top:5%;}
   .header_baner .grey {margin-bottom:5%;}
   .copyright {margin:1% 0 1% 1%;}
-  @-moz-document url-prefix() {  
-  .orange {
-    margin-top: 1.5em;
-  }
-  body {font-size: 10px;}
-  .header_baner figcaption p{
-    margin: 1em 0 1.5em 0;
-  }
-  }
+
 }
 @media (min-width: 900px) and (max-width:1199px) { 
   body{font-size: 12px;}
