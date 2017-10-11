@@ -562,11 +562,13 @@ footer form a {
     background-size: 100% 100%;
     background-color: #e1dfd5;
   }
+  @media (max-width:640px) {
   .orange {
     margin-top: 1.5em;
   }
   body {font-size: 10px;}
   .header_baner figcaption p{
     margin: 1em 0 1.5em 0;
+  }
   }
 }
