@@ -550,7 +550,7 @@ footer form a {
   .header_baner figcaption h2 {margin-top:5%;}
   .header_baner .grey {margin-bottom:5%;}
   .copyright {margin:1% 0 1% 1%;}
-  @-moz-document url-prefix() {  .header_baner figcaption { margin-left: 10%;}}
+
 }
 @media (min-width: 1200px) and (max-width:1600px) { 
   body{font-size: 14px;}
@@ -564,6 +564,7 @@ footer form a {
   footer nav{margin-right:50px;}
   footer .orange{ margin-top:1.5em;}
   .input-wrapper .fa-search {right:5px;}
+    @-moz-document url-prefix() {  .header_baner figcaption { margin-left: 10%;}}
 }
 @-moz-document url-prefix() { 
   .gallery-wrapper {
