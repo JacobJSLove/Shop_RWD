@@ -193,7 +193,7 @@ nav .second::after {
 header {
   background-image: url(../img/baner/women-bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 .header_baner {
