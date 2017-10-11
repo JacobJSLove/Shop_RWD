@@ -7,6 +7,10 @@ function init() {
   }
 }
 window.onload = init;
+  $( ".menu--hamburger" ).click(function() {
+    $( ".navbar ul" ).toggleClass( "opened", "opened" );
+    $( ".menu--hamburger" ).toggleClass( "opened", "opened" );
+  });
 $( () => {
   const cart = {
     amount: 0,
