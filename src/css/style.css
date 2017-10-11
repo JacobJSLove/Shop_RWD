@@ -523,6 +523,15 @@ footer form a {
   .header_baner figcaption h2 {margin-top:5%;}
   .header_baner .grey {margin-bottom:5%;}
   .copyright {margin:1% 0 1% 1%;}
+  @-moz-document url-prefix() {  
+  .orange {
+    margin-top: 1.5em;
+  }
+  body {font-size: 10px;}
+  .header_baner figcaption p{
+    margin: 1em 0 1.5em 0;
+  }
+  }
 }
 @media (min-width: 900px) and (max-width:1199px) { 
   body{font-size: 12px;}
@@ -561,14 +570,5 @@ footer form a {
   header {
     background-size: 100% 100%;
     background-color: #e1dfd5;
-  }
-  @media (max-width:640px) {
-  .orange {
-    margin-top: 1.5em;
-  }
-  body {font-size: 10px;}
-  .header_baner figcaption p{
-    margin: 1em 0 1.5em 0;
-  }
   }
 }
