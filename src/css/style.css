@@ -550,6 +550,7 @@ footer form a {
   .header_baner figcaption h2 {margin-top:5%;}
   .header_baner .grey {margin-bottom:5%;}
   .copyright {margin:1% 0 1% 1%;}
+  @-moz-document url-prefix() {  .header_baner figcaption { margin-left: 10%;}}
 }
 @media (min-width: 1200px) and (max-width:1600px) { 
   body{font-size: 14px;}
