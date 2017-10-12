@@ -17,42 +17,55 @@
 </head>
 
 <body>
-    <div class="container-wrapper">
-        <nav>
-            <section class="first">
-                <img src="src/img/logo.png" alt="logo" class="nav-logo">
-               <div class="menu--hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <a href="#">Twoje konto</a>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                <a href="#" id="cart"></a>
+    <div class="container__wrapper">
+        <nav class="topmenu">
+            <section class="topmenu__logo">
+                <img src="src/img/logo.png" alt="logo" class="topmenu__logo__img">
+                   <div class="topmenu__logo--hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                  <div class="clearfix"></div>
+                 <div class="input-wrapper">
+                    <i class="fa fa-search topmenu__navbar__icon" aria-hidden="true"></i>
+                    <input type="text" class="nav-search" placeholder="Szukaj produktu...">
+                </div>
+                <i class="fa fa-user topmenu__logo__icon" aria-hidden="true"></i>
+                <a href="#" class="topmenu__logo__link">Twoje konto</a>
+                <i class="fa fa-shopping-cart topmenu__logo__icon" aria-hidden="true"></i>
+                <a href="#" class="topmenu__logo__link" id="cart">159.90 zł/prod. (1)</a>
                 <button class="btn orange">DO KASY</button>
             </section>
-            <section class="second">
+            <section class="topmenu__quote">
                 <h5>that’s what we call fashion</h5>
             </section>
-            <section class="navbar">
-              <ul class="navbar--list">
+              <ul class="topmenu__navbar">
                 <div class="input-wrapper">
-                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <i class="fa fa-search topmenu__navbar__icon" aria-hidden="true"></i>
                     <input type="text" class="nav-search" placeholder="Szukaj produktu...">
                 </div>
                 <li><a href="#">Odzież</a></li>
                 <li><a href="#">Akcesoria</a></li>
-                <li><a href="#">Trendy<i class="fa fa-caret-down"></i></a></li>
-                <li><a href="#">Marki<i class="fa fa-caret-down"></i></a></li>
-                <li><a href="#">Promocje<i class="fa fa-caret-down"></i></a></li>
+                <li class="dropdown"><a href="#">Trendy<i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-content hidden">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul></li>
+                <li class="dropdown"><a href="#">Marki<i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-content hidden">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul></li>
+                <li class="dropdown"><a href="#">Promocje<i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-content hidden">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul></li>
               </ul>
-                   <!--  <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div> -->
-            </section>
         </nav>
     </div>
     <header>

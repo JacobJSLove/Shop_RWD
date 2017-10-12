@@ -7,10 +7,14 @@ function init() {
   }
 }
 window.onload = init;
-  $( ".menu--hamburger" ).click(function() {
-    $( ".navbar ul" ).toggleClass( "opened", "opened" );
-    $( ".menu--hamburger" ).toggleClass( "opened", "opened" );
+  $( ".topmenu__logo--hamburger" ).click(function() {
+    $( ".topmenu__navbar" ).toggleClass( "opened" );
+    $('body').toggleClass('stop-scrolling')
+    $( ".topmenu__logo--hamburger" ).toggleClass( "opened");
   });
+  $(".dropdown").click(function() {
+    $( this ).children('ul').toggleClass( "hidden" )
+  }); 
 $( () => {
   const cart = {
     amount: 0,
